@@ -1,0 +1,92 @@
+# Adaptive Study Tutor - Sample Syllabus Notes
+
+==================================================
+SUBJECT: Physics / General Science
+==================================================
+
+TOPIC: Newton's Laws of Motion
+
+Newton's First Law (Law of Inertia):
+An object will remain at rest or continue moving at a constant velocity unless acted upon by a net external force. Inertia is the tendency of an object to resist changes in its state of motion.
+
+Newton's Second Law (F = ma):
+The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. The direction of acceleration is in the direction of the net applied force. Formula: Force (F) = Mass (m) x Acceleration (a).
+
+Newton's Third Law (Action & Reaction):
+For every action force, there is an equal and opposite reaction force. When object A exerts a force on object B, object B simultaneously exerts a force of equal magnitude and opposite direction on object A.
+Example: Rocket Propulsion - A rocket pushes exhaust gas downwards out of its engine (action), and the gas pushes the rocket upwards with equal force (reaction).
+Example: Walking - A person pushes backwards against the ground with their foot, and the ground pushes forward against the foot, propelling the person forward.
+
+==================================================
+TOPIC: Photosynthesis
+
+Photosynthesis Overview:
+Photosynthesis is the biological process by which green plants, algae, and certain bacteria convert light energy into chemical energy stored in glucose (sugar).
+
+Chemical Equation:
+6CO2 + 6H2O + Light Energy -> C6H12O6 + 6O2
+Carbon dioxide + Water + Solar Energy -> Glucose + Oxygen
+
+Key Stages:
+1. Light-Dependent Reactions: Occur in the thylakoid membranes of chloroplasts. Chlorophyll absorbs sunlight, splits water molecules (H2O), releases oxygen (O2) as a byproduct, and generates energy molecules (ATP and NADPH).
+2. Light-Independent Reactions (Calvin Cycle): Occur in the stroma of chloroplasts. Uses ATP, NADPH, and carbon dioxide (CO2) to synthesize glucose (C6H12O6).
+
+Importance:
+Photosynthesis provides oxygen necessary for aerobic cellular respiration in living organisms and forms the foundational base of food chains on Earth.
+
+==================================================
+SUBJECT: Computer Science
+==================================================
+
+TOPIC: Java Inheritance
+
+Inheritance Concept:
+Inheritance is a fundamental Object-Oriented Programming (OOP) principle where a child class (subclass) acquires properties (fields) and behaviors (methods) from a parent class (superclass) using the 'extends' keyword.
+
+Benefits of Inheritance:
+1. Code Reusability: Common methods and properties are written once in the superclass.
+2. Method Overriding: Subclasses can provide specific implementations of methods defined in superclasses.
+3. Extensibility: Easily create specialized classes building upon existing functionality.
+
+Java Syntax Example:
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("The dog barks.");
+    }
+}
+
+Types of Inheritance in Java:
+- Single Inheritance: Class B extends Class A.
+- Multilevel Inheritance: Class C extends Class B, which extends Class A.
+- Hierarchical Inheritance: Class B and Class C both extend Class A.
+Note: Java does NOT support multiple inheritance with classes (a class extending multiple classes) to prevent diamond ambiguity, but supports it through interfaces.
+
+==================================================
+TOPIC: Data Structures - Arrays & Trees
+
+1. Arrays:
+An array is a linear data structure that stores elements of the same data type in contiguous memory locations.
+Characteristics:
+- Fixed Size: Size is allocated upon creation and cannot be dynamically resized in standard arrays.
+- Indexing: Zero-based indexing allows constant time access O(1) to any element.
+- Search Time: O(n) linear search for unsorted arrays, O(log n) binary search for sorted arrays.
+- Insertion/Deletion: O(n) because remaining elements must be shifted.
+
+2. Trees & Binary Search Trees (BST):
+A tree is a non-linear hierarchical data structure composed of nodes connected by edges. The top node is called the root.
+Binary Tree: Each node has at most two children, referred to as left child and right child.
+Binary Search Tree (BST) Rules:
+- The left subtree of a node contains only nodes with keys less than the node's key.
+- The right subtree of a node contains only nodes with keys greater than the node's key.
+- Both left and right subtrees must also be binary search trees.
+Time Complexity in Balanced BST:
+- Search: O(log n)
+- Insertion: O(log n)
+- Deletion: O(log n)
+Tree Traversals: Inorder (Left-Root-Right), Preorder (Root-Left-Right), Postorder (Left-Right-Root).
